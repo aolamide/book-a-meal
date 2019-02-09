@@ -1,0 +1,14 @@
+{
+  "name": "bookmealapi",
+  "version": "1.0.0",
+  "description": "api for bookameal_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "olamide",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
