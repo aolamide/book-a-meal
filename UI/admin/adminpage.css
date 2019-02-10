@@ -1,0 +1,82 @@
+body{
+    background-image: url(../img/dd2.jpg);
+}
+.nav-links{
+    padding: 5px;
+}
+.nav-links:nth-of-type(1){
+    border-right: 2px double white;
+}
+.nav-links:hover{
+    border-bottom: 3px solid yellowgreen;
+}
+.meals-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+}
+
+.meal-option{
+    background-color: #5fa;
+    width: 200px;
+    margin: 15px;
+}
+.meal-option img{
+    width: 100%;
+    height: 200px;
+}
+.btn{
+    margin: 1px 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-modify{
+    background:#4971f8;
+}
+.btn-delete{
+    background: red;
+}
+.add-btn{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom : 4px;
+    right: 4px;
+    background-color: burlywood;
+}
+
+#add-meal{
+    width: 80vw;
+    padding: 15px;
+    background: white;
+    border: 1px solid blue;
+    margin: 15% auto;
+}
+#add-meal .header{
+    background: #4971f8;
+    padding: inherit;
+}
+
+.info-block{
+    background-color: rgb(218, 216, 214);
+    min-height: 50vh;
+    padding: 15px;
+    width: 80vw;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+.orders li{
+    padding: 10px;
+}
+.orders li p{
+    padding: 5px;
+}

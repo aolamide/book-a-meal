@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WELCOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <div class='topbar topbar-home'>
+        <h1 class='logo logo-home'>Book-A-Meal</h1>
+        <a href="javascript:void(0)" class="right" id="toggleNav"><i class="fa fa-bars"></i></a>
+        <div id="drop" class="fo right">
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Register</a>
+        </div>
+    </div>
+    <div class="mask"></div>
+    <div class="home">
+        <img src="img/home.jpg" alt="">
+        <p class="logo logo-home">Book-A-Meal</p>
+        <p class="small">let's get that meal to you right away..</p>
+    </div>
+    <footer class="fo footer">
+        Book-A-Meal &copy; 2019.
+    </footer>
+    <script>
+        const dropdown = document.getElementById('drop');
+        const toggleNav = document.getElementById('toggleNav');
+        toggleNav.addEventListener('click', () => {
+            dropdown.classList.toggle('dropped');
+        });
+    </script>
+</body>
+</html>

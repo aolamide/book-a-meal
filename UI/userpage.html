@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Book-A-Meal</title>
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="userpage.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="nav topbar">
+		<h1 class='logo'>Book-A-Meal</h1>
+		<a class="right icon" id="toggleNav" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
+		<div class="dropdown right">
+			<a href="" class="fa-1x">Today's Menu</a>
+			<a title="Cart" id="cart" class="" href=""><i class="fas fa-shopping-cart"></i></a>
+			<a title="Profile" class="" href=""><i class="fas fa-user"></i></a>
+		</div>
+	</nav>
+	<div id="container" class="container">
+		<div id="menu">
+			<p class="title">TODAY'S MENU</p>
+			<div class="menu-items">
+				<div class="menu-item">
+				 	<img src="img/jollofrice-plantain.jpg" alt="">
+				 	<div>
+				 		<p class="menu-name">Jollof Rice, Plantain and Chcicken</p>
+				 		<span class="price">N1300</span>
+				 		<button class="add">SELECT</button>
+				 	</div>
+				 </div>
+				 <div class="menu-item">
+				 	<img src="img/friedrice.jpg" alt="">
+				 	<div>
+				 		<p class="menu-name">Fried Rice</p>
+				 		<span class="price">N700</span>
+				 		<button class="add">SELECT</button>
+				 	</div>
+				 </div>
+				 <div class="menu-item">
+				 	<img src="img/amala.jpg" alt="">
+				 	<div>
+				 		<p class="menu-name">Amala with assorted meat</p>
+				 		<span class="price">N1250</span>
+				 		<button class="add">SELECT</button>
+				 	</div>
+				 </div>
+				 <div class="menu-item">
+				 	<img src="img/yamandegg.jpg" alt="">
+				 	<div>
+				 		<p class="menu-name">Yam and Egg</p>
+				 		<span class="price">N1500</span>
+				 		<button class="add">SELECT</button>
+				 	</div>
+				 </div>
+				 <div class="menu-item">
+				 	<img src="https://placehold.it/400x400" alt="">
+				 	<div>
+				 		<p class="menu-name">LO LO LOl</p>
+						<span class="price">N2000</span>
+				 		<button class="add">SELECT</button>
+				 	</div>
+				 </div> 
+			</div>
+		</div>
+		<div id="order-box">
+			<p class="title">YOUR ORDER</p>
+			<div class="order-details">
+				<div class="discount-code">
+					<input type="text" placeholder="Discount Code"><button>APPLY</button>
+				</div>
+				<div>
+					<p class="right">NXXX</p>
+					<p>Subtotal</p>
+				</div>
+				<div>
+					<p class="right">NXXX</p>
+					<p>Delivery</p>
+				</div>
+				<div>
+					<p class="right">- NXXX</p>
+					<p>Discount</p>
+				</div>
+				<div class="total">
+					<p class="right">NXXXX</p>
+					<p>TOTAL</p>
+				</div>
+				<div class="checkout">
+					<button >CONFIRM ORDER</button>
+				</div>
+				<div class="order-items">
+					<ul>
+						<li>
+							<p class="right">N2100</p>
+							<p>JOLLOF RICE AND CHICKEN</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="index.js"></script>
+</body>
+</html>

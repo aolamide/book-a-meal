@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Book-A-Meal Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../base.css" />
+    <link rel="stylesheet" href="adminpage.css">
+</head>
+<body>
+    <div class='topbar'>
+        <h1 class='logo'>Book-A-Meal</h1><span>Admin</span>
+        <div class="right">
+            <a class="nav-links" href="setmenu.html">Today's Menu</a>
+            <a class="nav-links" href="">Info</a>
+        </div>
+    </div>
+    <div class="meals-container">
+        <div class="meal-option">
+            <img src="../img/jollofrice-plantain.jpg" alt="">
+            <p>Jollof Rice, Plantain and Chicken</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/amala.jpg" alt="">
+            <p>Amala and Assorted Meat</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/yamandegg.jpg" alt="">
+            <p>Yam and Egg</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <div class="meal-option">
+            <img src="../img/friedrice.jpg" alt="">
+            <p>Fried Rice</p>
+            <p class="price">N2100</p>
+            <div><button class="btn btn-modify">MODIFY</button><button class="btn btn-delete">DELETE</button></div>
+        </div>
+        <button id="add-btn" class="add-btn">+</button> 
+    </div>
+    <div id="modal">
+        <div id="add-meal">
+            <div class="header">ADD MEAL OPTION <span id="close-modal" class="right close-modal">X</span></div>
+            <div class="form-group">
+                <label for="name">MEAL NAME:</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="name">MEAL PRICE:</label>
+                <input class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="name">MEAL IMAGE LINK:</label>
+                <input class="form-control" type="url">
+            </div>
+            <div class="submit">
+                <button class="btn">ADD MEAL OPTION</button>
+            </div>
+        </div>              
+    </div>
+    <script src="addmeal.js"></script>   
+</body>
+</html>

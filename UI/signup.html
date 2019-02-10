@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Book-A-Meal</title>
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class='topbar'>
+		<h1 class='logo'>Book-A-Meal</h1>
+	</div>
+	<p class='form-head'>SIGN UP</p>
+	<form class='form' action="userpage.html">
+		<div class="form-group">
+			<label for="fullname">Full Name : </label>
+			<input pattern="(\S+)\s(\S+)" title="A first name and a last name" required id='fullname' class='form-control' type="text" placeholder="e.g FirstName LastName">
+			<span class='input-error' id="v-fullname"></span>
+		</div>
+		<div class="form-group">
+			<label for="email">Email Address : </label>
+			<input required pattern="(\S+)(@)(\S+)([.])(\S+)" class='form-control' id='email' type="email" placeholder="email@email.com">
+			<span class='input-error' id="v-email"></span>
+		</div>
+		<div class="form-group">
+			<label for="password">Password : </label>
+			<input required class='form-control' id='password' type="password">
+		</div>
+		<div class="form-group">
+			<label for="confirm-password">Confirm Password : </label>
+			<input required class='form-control' id='confirm-password' type="password">
+			<span class='input-error' id='v-repassword'></span>
+		</div>
+		<div class="submit">
+			<button class="btn">Sign Up</button>
+		</div>
+	</form>
+	<script src='index.js'></script>
+</body>
+</html>
