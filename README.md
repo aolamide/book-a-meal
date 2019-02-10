@@ -1,1 +1,4 @@
-# book-a-meal
+# BOOK-A-MEAL
+
+<p>Book-A-Meal is an application that allows customers to make food orders and helps the food
+vendor know what the customers want to eat.</p>
