@@ -37,6 +37,17 @@ const MealService = {
     placeholderData.meals.splice(index, 1);
     return placeholderData.meals;
   },
+  updateAMeal(id, updatedMeal) {
+    const mealToUpdate = placeholderData.meals.find(meal => Number(meal.id) === Number(id));
+    if (!mealToUpdate) {
+      return 'No meal found to update';
+    }
+    mealToUpdate.name = updatedMeal.name;
+    mealToUpdate.size = updatedMeal.size;
+    mealToUpdate.price = updatedMeal.price;
+    mealToUpdate.imageUrl = updatedMeal.imageUrl;
+    return mealToUpdate;
+  },
 };
 
 export default MealService;
