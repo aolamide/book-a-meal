@@ -16,7 +16,7 @@ const MealService = {
   },
   addMeal(meal) {
     const existingLength = placeholderData.meals.length;
-    const highestId = placeholderData[existingLength - 1].id;
+    const highestId = placeholderData.meals[existingLength - 1].id;
     const newId = highestId + 1;
     const newMeal = new Meal();
     newMeal.id = newId;
@@ -28,13 +28,13 @@ const MealService = {
     return newMeal;
   },
   getSingleMeal(id) {
-    const singleMeal = placeholderData.meals.find(meal => meal.id === id);
+    const singleMeal = placeholderData.meals.find(meal => Number(meal.id) === Number(id));
     return singleMeal || {};
   },
   deleteAMeal(id) {
-    const mealToDelete = placeholderData.meals.find(meal => meal.id === id);
+    const mealToDelete = placeholderData.meals.find(meal => Number(meal.id) === Number(id));
     const index = placeholderData.meals.indexOf(mealToDelete);
-    placeholderData.splice(index, 1);
+    placeholderData.meals.splice(index, 1);
     return placeholderData.meals;
   },
 };
