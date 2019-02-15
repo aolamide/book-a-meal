@@ -1,12 +1,15 @@
 import express from 'express';
+import bodyParser from 'body-parser';
 
 const app = express();
 const port = process.env.PORT || 4000;
 
-app.get('*', (req, res) => {
+app.use(bodyParser.json());
+
+app.get('/', (req, res) => {
   res.json('Welcome to my world');
 });
 
 app.listen(port, () => {
-  console.log(`server working on port ${port}`);
-}
+  console.log(`server running on port ${port}`);
+});
