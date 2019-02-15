@@ -29,4 +29,53 @@ export default {
       imageUrl: 'http://placehold.it/200x200',
     },
   ],
+  orders: [
+    {
+      orderId: 1,
+      customerId: 256,
+      orderTime: '15/02/2019, 16:01:31',
+      mealsOrdered: [
+        {
+          name: 'Yam and Egg',
+          size: 'Small',
+        },
+        {
+          name: 'Fufu and Okro',
+          size: 'Medium',
+        },
+      ],
+      total: 1950,
+      deliveryStatus: false,
+    },
+    {
+      orderId: 2,
+      customerId: 324,
+      orderTime: '15/02/2019, 17:01:31',
+      mealsOrdered: [
+        {
+          name: 'Jollof Rice',
+          size: 'Medium',
+        },
+        {
+          name: 'Fried Rice and Fish',
+          size: 'Large',
+        },
+      ],
+      total: 2150,
+      deliveryStatus: false,
+    },
+    {
+      orderId: 3,
+      customerId: 256,
+      orderTime: '15/02/2019, 18:01:31',
+      mealsOrdered: [
+        {
+          name: 'Ogi and Akara',
+          size: 'Small',
+        },
+      ],
+      total: 500,
+      deliveryStatus: false,
+    },
+  ],
 };
