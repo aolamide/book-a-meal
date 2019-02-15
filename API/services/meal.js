@@ -31,6 +31,12 @@ const MealService = {
     const singleMeal = placeholderData.meals.find(meal => meal.id === id);
     return singleMeal || {};
   },
+  deleteAMeal(id) {
+    const mealToDelete = placeholderData.meals.find(meal => meal.id === id);
+    const index = placeholderData.meals.indexOf(mealToDelete);
+    placeholderData.splice(index, 1);
+    return placeholderData.meals;
+  },
 };
 
 export default MealService;
