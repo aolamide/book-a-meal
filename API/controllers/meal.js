@@ -24,6 +24,14 @@ const MealController = {
       data: retrievedMeal,
     }).status(200);
   },
+  deleteAMeal(req, res) {
+    const { id } = req.params;
+    const mealsLeft = MealService.deleteAMeal(id);
+    return res.json({
+      status: 'success',
+      data: mealsLeft,
+    }).status(200);
+  },
 };
 
 export default MealController;
