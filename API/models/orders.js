@@ -3,7 +3,7 @@
     orderId,
     customerId,
     orderTime : new Date(),
-    order: [],
+    mealsOrdered: [],
     total,
     deliveryStatus: false,
     catererId
@@ -17,7 +17,12 @@ class Orders {
     this.customerId = null;
     this.orderTime = new Date().toLocaleString();
     this.total = null;
-    this.deliveryStatus = false;
+    this.delivered = false;
+  }
+
+  modifyOrder() {
+    this.modified = true;
+    this.modifiedTime = new Date().toLocaleString();
   }
 }
 
