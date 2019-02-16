@@ -45,7 +45,7 @@ export default {
         },
       ],
       total: 1950,
-      deliveryStatus: false,
+      delivered: false,
     },
     {
       orderId: 2,
@@ -62,7 +62,7 @@ export default {
         },
       ],
       total: 2150,
-      deliveryStatus: false,
+      delivered: false,
     },
     {
       orderId: 3,
@@ -75,7 +75,7 @@ export default {
         },
       ],
       total: 500,
-      deliveryStatus: false,
+      delivered: false,
     },
   ],
 };
