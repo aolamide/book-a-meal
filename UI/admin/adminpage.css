@@ -15,9 +15,12 @@ body{
     flex-wrap: wrap;
     width: 80vw;
     margin: 0 auto;
+    margin-top: 20px;
     justify-content: center;
     text-align: center;
     background-image: url(../img/bg.jpg);
+    border-radius: 10px;
+    box-shadow: -1px -1px 1px 1px #777, 1px 1px 1px 1px #777;
 }
 
 .meal-option{
