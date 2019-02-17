@@ -22,7 +22,7 @@ button:hover{
 	display: inline-block;
 }
 .container{
-	/*height: 100%;*/
+	padding-right: 15px;
 	padding-left: 15px;
 }
 .menu-items{
@@ -30,6 +30,8 @@ button:hover{
 	flex-wrap: wrap;
 	justify-content: center;
 	background-image: url(img/bg.jpg);
+	border-radius: 10px;
+	box-shadow: -1px -1px 1px 1px #777, 1px 1px 1px 1px #777;
 }
 
 .menu-item{
@@ -166,6 +168,7 @@ li{
 	.cart-container #order-box{
 		display: block;
 		width: 90%;
+		margin-top: 50px;
 	}
 }
 
