@@ -83,3 +83,9 @@ body{
 .orders li p{
     padding: 5px;
 }
+
+@media screen and (max-width: 500px) {
+    .logo{
+        font-size: 1rem;
+    }
+}
