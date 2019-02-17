@@ -78,4 +78,46 @@ export default {
       delivered: false,
     },
   ],
+  menus: [
+    {
+      date: 'Sun Feb 17 2019',
+      menu: [
+        {
+          name: 'Jollof Rice',
+          size: 'Big',
+          price: '1200',
+        },
+        {
+          name: 'Amala',
+          size: 'Medium',
+          price: '800',
+        },
+        {
+          name: 'Fried Rice',
+          size: 'Big',
+          price: '1280',
+        },
+      ],
+    },
+    {
+      date: 'Mon Feb 18 2019',
+      menu: [
+        {
+          name: 'MoiMoi and Eko',
+          size: 'Big',
+          price: '200',
+        },
+        {
+          name: 'Spaghetti and Chicken',
+          size: 'Small',
+          price: '600',
+        },
+        {
+          name: 'Ofada Rice and Stew',
+          size: 'Big',
+          price: '3280',
+        },
+      ],
+    },
+  ],
 };
