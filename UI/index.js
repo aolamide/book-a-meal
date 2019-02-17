@@ -14,6 +14,11 @@ toggleNav.addEventListener("click", () => {
 		dropdown.style.display = "none";
 	}
 });
+window.addEventListener('resize', () => {
+	if (window.innerWidth > 800) {
+		dropdown.style.display = "block";
+	}
+});
 
 cartButton.addEventListener("click", (e) => {
 	e.preventDefault();

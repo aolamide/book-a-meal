@@ -84,11 +84,12 @@ button:hover{
 #order-box{
 	width: 25%;
 	display: inline-block;
-    position: fixed;
-	/* background-color: #ccc; */
+  position: fixed;
 	background-image: url(img/bg.jpg);
-    right: 15px;
-    height: 400px;	
+  right: 15px;
+  height: 400px;
+  border-radius: 10px;
+	box-shadow: -1px -1px 1px 1px #777, 1px 1px 1px 1px #777;	
 }
 .order-details{
 	padding: 8px;
@@ -135,10 +136,12 @@ li{
 	.nav div.right a{
 		display: block;
 		padding: 5px;
+		box-sizing: border-box;
 		padding-left: 10px;
+		width: 100%
 	}
 	.nav div.right a:hover{
-		background-color: #4971f8;
+		background-color: #5fa;
 	}
 	.nav #toggleNav{
 		display: inline-block;
